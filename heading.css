@@ -1,0 +1,17 @@
+body{
+    background: #111111;
+    margin: 0;
+}
+#container{
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    width:45%;
+}
+.row1{
+    display:flex;
+    background:blue;
+}
+.row2{
+    display:flex;
+}

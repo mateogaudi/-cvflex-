@@ -1,0 +1,70 @@
+#sidebar{
+    width:30%;
+    background:#fff;
+}
+.sidebar-name{
+    width:99.99%;
+    height:30px;
+    background:#c9a600;
+}
+.sidebar-information{
+    width:99.99%;
+    background:#323338;
+}
+.sidebar-information-box{
+    width:99.99%;
+    background:#323338;
+    padding:17px 000;
+}
+.social-icon{
+    width:99.99%;
+    height:100%;
+    display:flex;
+}
+.boxicon{
+    height:100%;
+    width:33.33%;
+    color:#fff;
+}
+.boxicon div{
+    text-align: center;
+    font-size:18px;
+    font-weight:200;
+}
+.boxicon i{
+    font-size:18px;
+    padding:20px;
+    margin:0;
+}
+.contact{
+    color:#fff;
+    font-size: 18px;
+    padding:15px 0 10px 15px;
+}
+.contact li{
+    list-style-type:none;
+}
+.contact ul{
+    padding:0;
+}
+.skills{
+    padding:15px 0 15px 50px;
+    color:#fff;
+}
+.language{
+    padding:15px 0 15px 50px;
+    color:#fff;
+}
+ul{
+    margin:0;
+    padding:0;
+}
+li{
+    padding:2px;
+}
+h4{
+    margin:0;
+    color:#fff;
+    text-align:center;
+    padding:5px 000;
+}

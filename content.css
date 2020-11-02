@@ -1,0 +1,92 @@
+#content{
+    margin:0;
+    background:#fff;
+    width:70%;
+    height:70%;
+}
+.content-information-heading{
+    width:100%;
+}
+h5{
+    margin:0;
+    color:black;
+    font-size:22px;
+    padding:0 0 5px 30px;
+    font-weight:600;
+}
+.content-information-heading div{
+    padding:0 40px 5px 30px;
+    font-size:12px;
+    box-sizing:border-box;
+}
+.content-header{
+    font-size:18px;
+    font-weight:600;
+}
+.content-header div{
+    padding:3px 2px 2px 15px;;
+}
+.content-header i{
+    padding:0 15px 00;
+}
+.content-rectangle{
+    width:100%;
+    display:flex;
+}
+.row-time{
+    width:35%;
+    height:100%;
+}
+.row-info{
+    width:65%;
+    height:100%;
+}
+.content-time{
+    width:100%;
+    height:60px;
+    padding:2px 0 0 50px;
+    box-sizing: border-box;
+    font-weight:600;
+    font-size:14px;
+}
+.content-section{
+    width:100%;
+    font-size:14px;
+    height:20px;
+    font-weight:600;
+}
+.content-info{
+    width:100%;
+    font-size:12px;
+    height:40px;
+    color:grey;
+}
+.content-info div{
+    padding:0 20px 0 0;
+}
+.content-rectangle-box{
+    display:flex;
+    width:100%;
+}
+.content-box{
+    width:50%;
+    height:100%;
+}
+.content-box-section{
+    height:20%;
+    width:100%;
+}
+.content-box-section div{
+    padding:5px 0 0 50px;
+    font-weight:600;
+    font-size:14px;
+}
+.content-box-info{
+    width:100%;
+    height:80%;
+}
+.content-box-info div{
+    padding:5px 20px 0 50px;
+    font-size:12px;
+    color:grey;
+}
