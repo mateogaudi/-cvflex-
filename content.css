@@ -99,3 +99,31 @@ h5{
     color:grey;
     font-family: 'Poppins', sans-serif;
 }
+.timeline
+{
+    width:100%;
+    height:60px;
+    position:relative;
+    background:blue;
+}
+.timeline:after{ 
+    content: ' ';
+    position: absolute;
+    width:2px;            
+    height:100%;
+    background:#2a2730;
+    left:33%;
+    top:50%;
+    transform:translate(-50%,-50%);
+}
+.timeline:before{ 
+    content: ' ';               
+    position: absolute;
+    width:8px;
+    height:8px;
+    border-radius:50%;
+    background:#2a2730;
+    left:33%;
+    top:28%;
+    transform:translate(-50%, -50%);
+}
