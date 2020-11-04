@@ -1,19 +1,41 @@
 #sidebar{
     width:30%;
-    background:#fff;
+    position:relative;
+}
+#sidebar::before{
+    content:' ';
+    width:50%;
+    height:100%;
+    background:#352741;
+    z-index:5;
+    position:absolute;
 }
 .sidebar-name{
     width:99.99%;
     height:30px;
     background:#c9a600;
+    position:relative;
+    box-sizing: border-box;
+    z-index:10;
+}
+.sidebar-name::before{
+    content:' ';
+    position:absolute;
+    background:#c9a600;
+    width:5%;
+    height:100%;
+    z-index:5;
+    box-sizing: border-box;
+    left:100%;
 }
 .sidebar-information{
     width:99.99%;
-    background:#323338;
+    background:#3e3b44;
+    position:relative;
 }
 .sidebar-information-box{
     width:99.99%;
-    background:#323338;
+    background:#3e3b44;
     padding:17px 000;
 }
 .social-icon{
@@ -25,11 +47,13 @@
     height:100%;
     width:33.33%;
     color:#fff;
+    z-index:10;
 }
 .boxicon div{
     text-align: center;
     font-size:18px;
     font-weight:200;
+    font-family: 'Itim', cursive;
 }
 .boxicon i{
     font-size:18px;
@@ -38,8 +62,11 @@
 }
 .contact{
     color:#fff;
-    font-size: 18px;
-    padding:15px 0 10px 15px;
+    font-size: 16px;
+    padding:13px 0 10px 15px;
+    font-family: 'Itim', cursive;
+    z-index:10;
+    position:relative;
 }
 .contact li{
     list-style-type:none;
@@ -50,10 +77,18 @@
 .skills{
     padding:15px 0 15px 50px;
     color:#fff;
+    font-family: 'Itim', cursive;
+    font-size:16px;
+    position:relative;
+    z-index:10;
 }
 .language{
     padding:15px 0 15px 50px;
     color:#fff;
+    font-family: 'Itim', cursive;
+    font-size:16px;
+    z-index:10;
+    position:relative;
 }
 ul{
     margin:0;
