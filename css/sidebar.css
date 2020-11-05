@@ -1,8 +1,8 @@
-#sidebar{
+.sidebar{
     width:30%;
     position:relative;
 }
-#sidebar::before{
+.sidebar::before{
     content:' ';
     width:50%;
     height:100%;
