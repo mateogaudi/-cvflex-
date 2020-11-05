@@ -4,7 +4,7 @@
     height:200px;
     position:relative;
 }
-.triangle2{
+.triangle{
     width:0;
     height:0;
     border-style:solid;
@@ -15,7 +15,7 @@
     left:0;
     bottom:15%;
 }
-.rectangle{
+.photo-rectangle::after{
     background:#352741;
     position:absolute;
     z-index:10;
@@ -23,6 +23,7 @@
     height:15%;
     left:0;
     bottom:0;
+    content:' ';
 }
 #photo::before{
     content:' ';
@@ -44,15 +45,15 @@
     z-index:5;
     bottom:15%;
 }
-.img img{
+.photo-img img{
     border-radius:50%;
     width:140px;
     height:140px;
 }
-.img{
+.photo-img{
     padding:10px 30px 30px 30px;
 }
-.triangle{
+.photo-img::after{
     width: 0; 
     height: 0; 
     border-top: 85px solid transparent;
@@ -62,6 +63,19 @@
     position:absolute;
     left:100%;
     top:0;
+    content:' ';
+}
+.photo-img::before{
+    width:0;
+    height:0;
+    border-style:solid;
+    border-width:0 0 15px 100px;
+    border-color: transparent transparent #352741 transparent;
+    z-index:10;
+    position:absolute;
+    left:0;
+    bottom:15%;
+    content:' ';
 }
 h1{
     margin:0;
@@ -94,8 +108,8 @@ h3{
     content:' ';
     width: 0; 
     height: 0; 
-    border-left: 310px solid transparent;
-    border-right: 166px solid transparent; 
+    border-left: 310px solid #fff;
+    border-right: 160px solid #fff; 
     border-top: 30px solid #e3e3e3;
     position:absolute;
     z-index:10;
@@ -103,26 +117,6 @@ h3{
 }
 #name-wrapper::before{
     content:' ';
-    position:absolute;
-    z-index:5;
-    width:100%;
-    height:30px;
-    top:85%;
-    background:#fff;
-}
-.name-wrapper-triangle{
-    content:' ';
-    position:absolute;
-    z-index:5;
-    width:0;
-    height:0;
-    border-style:solid;
-    border-width:0 0 100px 120px;
-    border-color: transparent transparent #c9a600 transparent;
-    right:0;
-    top:34%;
-}
-.name-wrapper-triangle2{
     width: 0;
     height: 0;
     border-right: 100px solid transparent;
@@ -137,4 +131,16 @@ h3{
     -webkit-transform:rotate(-12deg); 
     -moz-transform:rotate(-12deg);   
     -o-transform:rotate(-12deg); 
+}
+.name-wrapper-triangle::after{
+    content:' ';
+    position:absolute;
+    z-index:5;
+    width:0;
+    height:0;
+    border-style:solid;
+    border-width:0 0 100px 120px;
+    border-color: transparent transparent #c9a600 transparent;
+    right:0;
+    top:34%;
 }

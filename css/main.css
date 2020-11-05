@@ -8,10 +8,6 @@ body{
     background: white;
     width:45%;
 }
-.row1{
-    display:flex;
-    background:blue;
-}
-.row2{
+.row{
     display:flex;
 }
