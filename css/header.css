@@ -1,4 +1,4 @@
-#photo{
+.photo{
     background:#2a2730;
     width:30%;
     height:200px;
@@ -25,7 +25,7 @@
     bottom:0;
     content:' ';
 }
-#photo::before{
+.photo::before{
     content:' ';
     width:100%;
     height:30px;
@@ -34,7 +34,7 @@
     position:absolute;
     bottom:0;
 }
-#photo::after{
+.photo::after{
     content:' ';
     width: 0; 
     height: 0; 
@@ -45,15 +45,15 @@
     z-index:5;
     bottom:15%;
 }
-.img img{
+.photo-img img{
     border-radius:50%;
     width:140px;
     height:140px;
 }
-.img{
+.photo-img{
     padding:10px 30px 30px 30px;
 }
-.img::after{
+.photo-img::after{
     width: 0; 
     height: 0; 
     border-top: 85px solid transparent;
@@ -65,7 +65,7 @@
     top:0;
     content:' ';
 }
-.img::before{
+.photo-img::before{
     width:0;
     height:0;
     border-style:solid;
