@@ -15,7 +15,7 @@
     left:0;
     bottom:15%;
 }
-.rectangle::after{
+.photo-rectangle::after{
     background:#352741;
     position:absolute;
     z-index:10;
