@@ -38,29 +38,29 @@
     background:#3e3b44;
     padding:17px 000;
 }
-.social-icon{
+.sidebar-social-icon{
     width:99.99%;
     height:100%;
     display:flex;
 }
-.boxicon{
+.sidebar-boxicon{
     height:100%;
     width:33.33%;
     color:#fff;
     z-index:10;
 }
-.boxicon div{
+.sidebar-boxicon div{
     text-align: center;
     font-size:18px;
     font-weight:200;
     font-family: 'Itim', cursive;
 }
-.boxicon i{
+.sidebar-boxicon i{
     font-size:18px;
     padding:20px;
     margin:0;
 }
-.contact{
+.sidebar-contact{
     color:#fff;
     font-size: 16px;
     padding:13px 0 10px 15px;
@@ -68,13 +68,13 @@
     z-index:10;
     position:relative;
 }
-.contact li{
+.sidebar-contact li{
     list-style-type:none;
 }
-.contact ul{
+.sidebar-contact ul{
     padding:0;
 }
-.skills{
+.sidebar-skills{
     padding:15px 0 15px 50px;
     color:#fff;
     font-family: 'Itim', cursive;
@@ -82,7 +82,7 @@
     position:relative;
     z-index:10;
 }
-.language{
+.sidebar-language{
     padding:15px 0 15px 50px;
     color:#fff;
     font-family: 'Itim', cursive;
